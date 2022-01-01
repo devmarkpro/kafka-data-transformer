@@ -1,0 +1,12 @@
+{
+  "name": "fulfillment-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.hostname": "product_db",
+    "database.port": "5432",
+    "database.user": "postgres",
+    "database.password": "secret",
+    "database.dbname" : "product_db",
+    "database.server.name": "fulfillment"
+  }
+}
